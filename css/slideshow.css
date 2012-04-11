@@ -1,0 +1,35 @@
+div#slideshow h2.titulo{
+	color: black;
+	background:#FFF670;
+	padding-left: 12px;
+	-moz-border-radius: 10px 10px 0 0 ;
+	font-size:12pt;
+border-radius: 10px 10px 0 0 ;
+}
+
+div#slideshowbox{
+z-index:0;
+top:0px;
+float:left;
+}
+
+#slideshowboxCaption{
+	position:relative;
+	top :130px;
+	left: 0px;	
+	z-index:1;
+}
+#slideshowboxnav{
+	color black;
+background:transparent;
+position:relative;
+top: 197px;
+z-index:2;
+width:100px;
+}
+
+#slideshowboxnav a, #slideshowboxnav a:hover, #slideshowboxnav a:visited, #slideshowboxnav a:focus{
+color : black;
+font-size:8pt;
+padding: 2px;
+}

@@ -1,0 +1,341 @@
+*{ 
+	margin: 0;
+	padding: 0;
+	font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+}
+
+body{
+	background:#FBFBFB url('../images/fundo_site.jpg') top center no-repeat; 
+}
+
+
+#todo{
+	display:block;	
+	margin: 0px auto;
+	margin-top: 0.5em ;
+	width:960px;
+
+	background:-moz-linear-gradient(top,rgba(255,255,255,0.4) , rgba(255,255,255,0.4) );
+    	background:  -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255,255,255,0.35)), to(rgba(255,255,255,0.35)));
+	background: rgba(255,255,255,0.4);
+	-moz-box-shadow: 1px 1px 10px #000;
+	-webkit-box-shadow: 1px 1px 10px #000;
+	box-shadow: 1px 1px 10px #000;
+
+	border-radius: 9px; /* CSS 3 */
+	-o-border-radius: 9px; /* Opera */
+	-icab-border-radius: 9px; /* iCab */
+	-khtml-border-radius: 9px; /* Konqueror */
+	-moz-border-radius: 9px; /* Firefox */
+	-webkit-border-radius: 9px; /* Safari */
+}
+
+#cabecalho{
+background:black url('../images/cabecalho_novo.png') top left;
+height:157px;
+	border-radius: 9px 9px 0 0; /* CSS 3 */
+	-o-border-radius: 9px 9px 0 0 ; /* Opera */
+	-icab-border-radius: 9px 9px 0 0; /* iCab */
+	-khtml-border-radius: 9px 9px 0 0; /* Konqueror */
+	-moz-border-radius: 9px 9px 0 0; /* Firefox */
+	-webkit-border-radius:9px 9px0 0; /* Safari */
+}
+
+#menu{
+background : transparent ;
+width: 100%;
+height:33px;
+background:url("../images/menu.png") repeat-x top left;
+}
+
+.ux-menu-container{
+	float : left ;
+}
+.ux-menu-link-level-0{
+
+		  border-radius : 3px;
+}
+
+div.mvc_main{
+	height : 20px;
+	margin : 2px;
+	float : left;
+}
+
+.mvc_digitCounter{
+	float : left ;
+
+}
+
+.mvc_people{
+
+	float : right ;
+	border-radius : 3px ;
+	background: white ;
+	padding : 4px ;
+}
+
+.mvc_peopleTable td{
+
+	padding : 0 3px 0 0;
+
+}
+
+
+#principal{
+height: 220px;
+
+}
+
+/* Modulo de SlideShow Jt SlideShow */
+#slideshow{
+background:transparent;
+width:955px;
+height:300px;
+float:left;
+margin-bottom : 3px;
+}
+#facebook{
+
+background:transparent;
+width:700px;
+height:550px;
+float:left;
+margin-bottom : 3px;
+background:white;
+
+}
+
+#twitter{
+
+background:transparent;
+width:100px;
+height:550px;
+float:left;
+margin-bottom : 3px;
+background:white;
+margin-left : 2px;
+border-radius : 6px ;
+
+}
+
+#palavraCelula{
+background:white;
+width:187px;
+height: 164px;
+float:left;
+list-style: none;
+padding : 3px;
+margin : 3px auto;
+margin-top : 0px;
+margin-left : 3px;
+
+
+
+}
+#palavraCelula h2{
+	font-size: 13pt;
+}
+
+#palavraCelula ul{
+	list-style: none;
+
+
+
+}
+
+.latestnews_Adulto ,.latestnews_Crianca {
+
+	background: #A3A9FF;
+	border-radius : 3px ;
+	margin-bottom : 4px ;
+	margin-top : 4px ;
+	color : black ; 
+	padding : 3px ;
+
+}
+
+.latestnews_Adulto a, .latestnews_Crianca a{
+	color : black ; 
+
+}
+
+.latestnews_Crianca{
+
+	background: #E4FFF6;
+
+}
+
+#video_semana h2.titulo{
+	color: black;
+	background:#A7B7AB;
+	padding-left: 12px;
+	-moz-border-radius: 10px 10px 0 0 ;
+border-radius: 10px 10px 0 0 ;
+font-size:12pt;
+}
+
+#destaque{
+height: 167px;
+display:block;
+width: 953px;
+margin-top:3px;
+margin-bottom: 3px;
+}
+
+#destaque h2{
+	padding-left: 8px;
+	-moz-border-radius: 6px 6px 0 0 ;
+border-radius: 6px 6px 0 0 ;
+}
+
+
+#newsshow2{
+	padding-top : 46px;
+	border-radius: 0;
+background: url('../images/israel.jpg');
+height : 152px;
+width : 316px;
+margin : 0;
+}
+#newsshow3{
+	padding-top : 46px;
+	border-radius: 0;
+background: url('../images/aniversariantes.jpg');
+height : 152px;
+margin: 0;
+margin-left: 2px ;
+margin-right: 2px ;
+
+}
+#newsshow4{
+	padding-top : 46px;
+	border-radius: 0;
+background: url('../images/oportunidades.jpg');
+height : 152px;
+width : 318px;
+margin : 0;
+}
+
+
+#noticias{
+	float:left;
+font-family:trebuchet ms;
+font-size:10pt;
+width:165px;
+height:185px;
+background : url('../images/celula.png');
+padding-top: 52px;
+}
+
+#conteudo{
+	padding: 3px;
+	display:block;
+background:transparent;
+}
+
+#texto{
+}
+
+#texto > h2{
+	background:#FFA366;
+	padding-left: 12px;
+	-moz-border-radius: 6px 6px 0 0 ;
+	border-radius: 6px 6px 0 0 ;
+	font-size:12pt;
+
+}
+
+
+#social {
+	clear:both;
+height:300px;
+padding:2px;
+/*background: #7EC7C4;*/
+border-radius: 10px ;
+
+}
+
+#social h2{
+background: #008080;
+	padding-left: 8px;
+	border-radius: 10px;
+
+
+}
+.joomla_sharethis{
+float:left;
+}
+
+.facebook{
+float:left;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+#banner{
+float:left;
+margin-left : 3px;
+}
+
+#banner .bannergroup{
+float:left;
+
+}
+
+/*
+#banner img{
+height:100px;
+width:110px;
+}
+*/
+#rodape{
+	margin:1px;
+	margin-top:6px;
+	padding:2px;
+clear:both;
+/*background:-moz-linear-gradient(top, rgba(255, 255,255 ,0.4),  rgba(255,255 ,255 , 0.9));
+background:-webkit-gradient(linear, 0% 40%, 0% 100%, from(rgba(255,255,255,0.4)), to(rgba(255,255,255,0.9)));
+	background: rgba(255,255,255,0.5);*/
+	background : url(../images/rodape.png);
+min-height:10px;
+-moz-border-radius:6px;
+font-family:trebuch;
+font-size:10pt;
+text-align:center;
+border-radius: 6px;
+height: 94px;
+color : white;
+}
+
+
+
+div .gallery{
+background: red;
+
+}
+
+div .gallery .gallery_1{
+background: blue;
+width: 40%;
+float:left;
+}
+
+div .gallery .gallery_2{
+background: yellow;
+float:right;
+width: 20%;
+
+}
+
+.carousel {
+display:block;
+
+}
+
+.carousel li{
+
+display:block;
+
+}
+

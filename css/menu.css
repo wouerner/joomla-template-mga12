@@ -1,0 +1,100 @@
+#menu a{
+color : white;
+text-decoration:none;
+font-size: 12pt;
+}
+
+#menu ul li ul{
+background:url('../images/fundo_menu_site.png');
+}
+
+
+#menu ul li{
+background:transparent;
+padding: 0px;
+display : inline ;
+}
+
+
+/* user menu*/
+
+#menu_usuario{
+background: yellow;
+}
+
+#menu_usuario ul li {
+display: inline;
+padding:10px;
+}
+#menu_usuario ul li  a{
+
+font-size: 18pt;
+color: red;
+}
+#menu_usuario ul li  a:hover{
+color: blue;
+background: red;
+}
+
+
+.ux-menu a.current {
+	background : none;
+}
+
+.ux-menu a {
+
+	background : none;
+	border : 0px;
+	padding : 10px;
+
+}
+
+.ux-menu a.ux-menu-link-last {
+	border : none;
+}
+
+.ux-menu-arrow {
+	display : none;
+
+}
+
+#menu ul li ul {
+
+}
+
+.ux-menu a:focus,.ux-menu a:hover,.ux-menu a.ux-menu-link-hover{
+
+	background: none;
+}
+
+.ux-menu ul a.ux-menu-link-last, .ux-menu.ux-menu-vertical a.ux-menu-link-last{
+
+	border : none;
+
+}
+
+menu.css (line 1)
+.ux-menu ul a, .ux-menu.ux-menu-vertical a{
+
+	border : none;
+}
+
+.ux-menu ul a, .ux-menu.ux-menu-vertical a{
+	border : none;
+
+}
+
+.ux-menu a {
+
+	border : none;
+}
+
+
+.ux-menu a.ux-menu-link-parent {
+
+}
+
+.ux-menu-link-level-1{
+
+	background: red;		  
+}
